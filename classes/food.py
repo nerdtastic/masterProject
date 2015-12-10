@@ -14,12 +14,14 @@ class Food():
   def getFoodGroup(self):
     return self.group
 
+  def getNutrients(self):
+    return self.nutrients
+
   def __str__(self):
     return self.name + " - " + self.group
 
-  def __init__(self, id, name, unit, amount, group):
+  def __init__(self, id, name, group, nutrients):
     self.id = id
     self.name = name
-    self.unit = unit
-    self.amount = amount
     self.group = group
+    self.nutrients = nutrients

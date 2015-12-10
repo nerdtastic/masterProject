@@ -1,31 +1,31 @@
-Name,Unit,Lower Bound,Upper Bound,Ideal,Id,Account For,Weight: X < LB,Weight: X > LB,Weight: X < UB,Weight: X > UB,Default: X < LB,Default: X > LB,Default: X < UB,Default: X > UB,Full Name
-calcium,mg,900,5000,2500,301,1,1,1,1,1,-1,0,1,-1,Calcium
-phosphorus,mg,700,2500,1000,305,1,1,1,1,1,-1,0,1,-1,Phosphorus
-magnesium,mg,600,1600,800,304,1,1,1,1,1,-1,0,1,-1,Magnesium
-potassium,mg,3500,7000,4500,306,1,1,1,1,1,-1,0,1,-1,Potassium
-sodium,mg,0,2600,1000,307,1,1,1,1,1,-1,0,1,-1,Sodium
-iron,mg,18,70,30,303,1,1,1,1,1,-1,0,1,-1,Iron
-manganese,mg,2,10,3,315,1,1,1,1,1,-1,0,1,-1,Manganese
-copper,mg,2,10,6,312,1,1,1,1,1,-1,0,1,-1,Copper
-zinc,mg,15,50,17,309,1,1,1,1,1,-1,0,1,-1,Zinc
-fluoride,ug,4000,6000,4100,313,0,1,1,1,1,-1,0,1,-1,Fluoride
-selenium,ug,70,200,100,317,1,1,1,1,1,-1,0,1,-1,Selenium
-vitaminA,IU,5000,25000,7500,318,1,1,1,1,1,-1,0,1,-1,Vitamin A
-vitaminC,mg,600,35000,1500,401,1,1,1,1,1,-1,0,1,-1,Vitamin C
-vitaminD,IU,400,2500,2000,324,1,1,1,1,1,0,0,1,-1,Vitamin D
-vitaminE,mg,27,100,30,323,1,1,1,1,1,-1,0,1,-1,Vitamin E
-vitaminK,ug,80,1500,500,430,1,1,1,1,1,-1,0,1,-1,Vitamin K
-thiamine,mg,1.5,7.5,2.5,404,1,1,1,1,1,-1,0,1,-1,Vitamin B1 (thiamine)
-riboflavin,mg,1.7,6,2.3,405,1,1,1,1,1,-1,0,1,-1,Vitamin B2 (riboflavin)
-niacin,mg,20,100,30,406,1,1,1,1,1,-1,0,1,-1,Vitamin B3 (niacin)
-pantothenicAcid,mg,10,80,20,410,1,1,1,1,1,-1,0,1,-1,Pantothenic Acid
-folate,ug,400,2500,500,417,1,1,1,1,1,-1,0,1,-1,Folate
-histidine,g,-1,-1,-1,512,0,1,1,1,1,-1,0,1,-1,Histidine
-isoleucine,g,-1,-1,-1,503,0,1,1,1,1,-1,0,1,-1,Isoleucine
-leucine,g,-1,-1,-1,504,0,1,1,1,1,-1,0,1,-1,Leucine
-lysine,g,-1,-1,-1,505,0,1,1,1,1,-1,0,1,-1,Lysine
-methionine,g,-1,-1,-1,506,0,1,1,1,1,-1,0,1,-1,Methionine
-phenylalanine,g,-1,-1,-1,507,0,1,1,1,1,-1,0,1,-1,Phenylalanine
-threonine,g,-1,-1,-1,502,0,1,1,1,1,-1,0,1,-1,Threonine
-tryptophan,g,-1,-1,-1,501,0,1,1,1,1,-1,0,1,-1,Tryptophan
-valine,g,-1,-1,-1,510,0,1,1,1,1,-1,0,1,-1,Valine
+Name,Unit,Lower Bound,Upper Bound,Ideal,Id,Account For,Weight: X < LB,Best Case,Weight: X < UB,Weight: X > UB,Worst Case for nothing,Default: X > LB,Default: X < UB,Worst Case for too much,Full Name
+calcium,mg,1000,5000,2500,301,1,1,8,1,0.3,-1,0,1,-1,Calcium
+phosphorus,mg,700,2500,1000,305,1,1,3,1,0.3,-1,0,1,-1,Phosphorus
+magnesium,mg,600,1600,800,304,1,1,3,1,0.3,-1,0,1,-1,Magnesium
+potassium,mg,3500,7000,4500,306,1,1,3,1,0.3,-1,0,1,-1,Potassium
+sodium,mg,0,2600,1000,307,1,1,3,1,0.3,-1,0,1,-1,Sodium
+iron,mg,18,70,30,303,1,1,3,1,0.3,-1,0,1,-1,Iron
+manganese,mg,2,10,3,315,1,1,3,1,0.3,-1,0,1,-1,Manganese
+copper,mg,2,10,6,312,1,1,3,1,0.3,-1,0,1,-1,Copper
+zinc,mg,15,50,17,309,1,1,3,1,0.3,-1,0,1,-1,Zinc
+fluoride,ug,4000,6000,4100,313,0,1,3,1,0.3,-1,0,1,-1,Fluoride
+selenium,ug,70,200,100,317,1,1,3,1,0.3,-1,0,1,-1,Selenium
+vitaminA,IU,5000,25000,7500,318,1,1,3,1,0.3,-1,0,1,-1,Vitamin A
+vitaminC,mg,600,35000,1500,401,1,1,3,1,0.3,-1,0,1,-1,Vitamin C
+vitaminD,IU,1500,2500,2000,324,0,1,3,1,0.3,0,0,1,-1,Vitamin D
+vitaminE,mg,27,100,30,323,1,1,3,1,0.3,-1,0,1,-1,Vitamin E
+vitaminK,ug,80,1500,500,430,1,1,3,1,0.3,-1,0,1,-1,Vitamin K
+thiamine,mg,1.5,7.5,2.5,404,1,1,3,1,0.3,-1,0,1,-1,Vitamin B1 (thiamine)
+riboflavin,mg,1.7,6,2.3,405,1,1,3,1,0.3,-1,0,1,-1,Vitamin B2 (riboflavin)
+niacin,mg,20,100,30,406,1,1,3,1,0.3,-1,0,1,-1,Vitamin B3 (niacin)
+pantothenicAcid,mg,10,80,20,410,1,1,3,1,0.3,-1,0,1,-1,Pantothenic Acid
+folate,ug,400,2500,500,417,1,1,3,1,0.3,-1,0,1,-1,Folate
+histidine,g,-1,-1,-1,512,0,1,3,1,0.3,-1,0,1,-1,Histidine
+isoleucine,g,-1,-1,-1,503,0,1,3,1,0.3,-1,0,1,-1,Isoleucine
+leucine,g,-1,-1,-1,504,0,1,3,1,0.3,-1,0,1,-1,Leucine
+lysine,g,-1,-1,-1,505,0,1,3,1,0.3,-1,0,1,-1,Lysine
+methionine,g,-1,-1,-1,506,0,1,3,1,0.3,-1,0,1,-1,Methionine
+phenylalanine,g,-1,-1,-1,507,0,1,3,1,0.3,-1,0,1,-1,Phenylalanine
+threonine,g,-1,-1,-1,502,0,1,3,1,0.3,-1,0,1,-1,Threonine
+tryptophan,g,-1,-1,-1,501,0,1,3,1,0.3,-1,0,1,-1,Tryptophan
+valine,g,-1,-1,-1,510,0,1,3,1,0.3,-1,0,1,-1,Valine
